@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/img3"
+        />
+    <EditText
+        android:id="@+id/etcOldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Old Password"
+        android:layout_marginTop="150dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:padding="12dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext" />
+
+    <EditText
+        android:id="@+id/etcNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Password"
+        android:inputType="textPassword"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:padding="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext" />
+
+
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:onClick="changecustomerpassword"
+        android:layout_gravity="center"
+       android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

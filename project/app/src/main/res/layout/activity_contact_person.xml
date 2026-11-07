@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".contact_person">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/img8"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="contact us:"
+            android:textColor="@color/black"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/layoutstyle"
+            android:src="@mipmap/callogo"
+            android:padding="20dp"
+            android:contentDescription="Call button"
+            android:id="@+id/imageCall1">
+    </ImageButton>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajendra "
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/phoneno1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9112 01 0037"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="0dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/layoutstyle"
+                android:src="@mipmap/callogo"
+                android:padding="20dp"
+                android:contentDescription="Call button"
+                android:id="@+id/imageCall2">
+            </ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rahul   "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/phoneno2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9112016566"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/layoutstyle"
+        android:layout_margin="20dp">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/layoutstyle"
+            android:src="@mipmap/callogo"
+            android:padding="20dp"
+            android:contentDescription="Call button"
+            android:id="@+id/imageCall3">
+        </ImageButton>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amit  "
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:id="@+id/phoneno3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9112090037"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="0dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/layoutstyle"
+                android:src="@mipmap/callogo"
+                android:padding="20dp"
+                android:contentDescription="Call button"
+                android:id="@+id/imageCall4">
+            </ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yogesh"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/phoneno4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9067671599"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/layoutstyle"
+                android:src="@mipmap/callogo"
+                android:padding="20dp"
+                android:contentDescription="Call button"
+                android:id="@+id/imageCall5">
+            </ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pravin"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/phoneno5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9067761599"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/layoutstyle"
+                android:src="@mipmap/callogo"
+                android:padding="20dp"
+                android:contentDescription="Call button"
+                android:id="@+id/imageCall6">
+            </ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zahir  "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/phoneno6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9112 22 1599"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/layoutstyle"
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/layoutstyle"
+                android:src="@mipmap/callogo"
+                android:padding="20dp"
+                android:contentDescription="Call button"
+                android:id="@+id/imageCall7">
+            </ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sachin "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/phoneno7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9075951599"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

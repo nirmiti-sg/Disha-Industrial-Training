@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/img6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="customer"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/driver5" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/white">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter username:"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:id="@+id/customerinput1"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:background="@drawable/edittext"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/etcustloguser"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter password:"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:id="@+id/customerinput3"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:maxLength="10"
+        android:textSize="14dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etcustlogpass"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/buttons"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+       android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/btnclogin"
+        android:textColor="#ffffff"/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="sign up for new user"
+     android:textSize="14dp"
+     android:onClick="opencsignuppage"
+     android:layout_gravity="center"
+     android:layout_marginTop="15dp"
+     android:textColor="#2196F3"
+     android:id="@+id/signuptextc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textSize="14dp"
+            android:onClick="opennewpass"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#2196F3"
+            android:id="@+id/forgetpass"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

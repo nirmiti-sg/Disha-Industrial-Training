@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/img6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Driver"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/driver5" />
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your name:"
+                android:textSize="20sp"
+
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput5" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext"
+                android:layout_marginLeft="40dp"
+                android:inputType="textPersonName"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:id="@+id/driverinputname" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone no.:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput7" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:layout_marginLeft="40dp"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:id="@+id/driverinputphoneno" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter mail id:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput9" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinputmailid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter address:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinput11" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:inputType="textPostalAddress"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinputaddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle type:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput13" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:inputType="text"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinputvehicletype" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle no:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput15" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:inputType="text"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinputvehicleno" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:id="@+id/driverinput16" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:inputType="textPassword"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/driverinputpassword" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:padding="10dp"
+                android:textSize="25sp"
+                android:background="@drawable/buttons"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:id="@+id/btndrivsignup" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

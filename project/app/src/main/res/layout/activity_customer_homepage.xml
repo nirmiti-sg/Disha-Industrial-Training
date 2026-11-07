@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".customer_homepage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/img7"/>
+    <Toolbar
+        android:layout_width="match_parent"
+        android:paddingEnd="10dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logout"
+            android:scaleType="fitCenter"
+            android:onClick="customerlogout"
+            android:layout_gravity="right"
+            >
+
+        </ImageButton>
+
+    </Toolbar>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="Request Vehicle"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:onClick="openvehiclerequest"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/crequest"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="view Records"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:onClick="opencustomerpastrecords"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/crecords"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:text="Help"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:onClick="openhelp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/chelp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact services"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:onClick="opencontact"
+        android:textSize="17dp"
+        android:id="@+id/contect1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chage password"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="270dp"
+        android:textStyle="bold"
+        android:onClick="openchangepass"
+        android:textSize="17dp"
+        android:id="@+id/passchange"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>

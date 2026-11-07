@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:id="@+id/mainimg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select category"
+        android:background="@drawable/categaro"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:id="@+id/tvlogincategory"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+         />
+<!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openManager"
+        android:background="@drawable/layoutstyle"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp">
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="50dp"
+        android:src="@mipmap/projectmanager"
+        android:id="@+id/managerimg"
+        ></ImageButton>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="28dp"
+    android:layout_marginTop="55dp"
+    android:layout_marginLeft="30dp"
+    android:paddingRight="30dp"
+    android:text="Manager"
+    android:fontFamily="serif"
+    android:textColor="#000000"
+    android:id="@+id/managertext"
+    android:textStyle="bold">
+</TextView>
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutstyle"
+        android:orientation="horizontal"
+        android:onClick="openCustomer"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="2dp">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/customerimg"
+            android:src="@mipmap/customer"
+            ></ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:paddingRight="22dp"
+            android:text="customer"
+            android:fontFamily="serif"
+            android:id="@+id/customertext"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutstyle"
+        android:orientation="horizontal"
+        android:onClick="openDriver"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="2dp">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/driver"
+            android:id="@+id/drierimg"
+            ></ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:text="Driver"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:paddingRight="62dp"
+            android:fontFamily="serif"
+            android:id="@+id/driertext"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
